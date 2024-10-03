@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Light blue background for a fresh look */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffffff; /* White background for the container */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50; /* Darker blue text */
+}
+
+.input-group {
+    margin: 15px 0;
+}
+
+label {
+    font-weight: bold;
+    display: block; /* Block display for better spacing */
+    margin-bottom: 5px; /* Space between label and input */
+    color: #2980b9; /* Blue color for labels */
+}
+
+input {
+    width: 100%;
+    padding: 12px; /* Increased padding for comfort */
+    margin-top: 5px;
+    border: 1px solid #bdc3c7; /* Light border */
+    border-radius: 8px; /* More rounded edges */
+    font-size: 16px; /* Slightly larger font for readability */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Center button */
+}
+
+button {
+    padding: 12px 20px; /* Padding for comfort */
+    background-color: #3498db; /* Bright blue button */
+    color: white;
+    border: none;
+    border-radius: 8px; /* Rounded edges */
+    cursor: pointer;
+    font-size: 16px; /* Slightly larger font for readability */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+.result {
+    margin-top: 20px;
+    text-align: center;
+    background: #ecf0f1; /* Light gray background for the result section */
+    padding: 15px; /* Padding for the result area */
+    border-radius: 8px; /* Rounded edges */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Softer shadow */
+}
+
+p {
+    margin: 5px 0; /* Consistent margin for paragraphs */
+    color: #2c3e50; /* Dark text for better readability */
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 15px; /* Slightly less padding on smaller screens */
+    }
+
+    button {
+        width: 100%; /* Full width on small screens */
+    }
+}
+
