@@ -5,7 +5,7 @@ document.getElementById('updateButton').addEventListener('click', function() {
     const savedValue = parseFloat(document.getElementById('saved').value);
     saved = saved + savedValue
     
-    if (!isNaN(goal) && !isNaN(saved)) {
+    if (!isNaN(saved)) {
         const remaining = goal - saved;
         
         document.getElementById('totalSaved').innerText = `Total Saved: $${saved.toFixed(2)}`;
@@ -15,7 +15,7 @@ document.getElementById('updateButton').addEventListener('click', function() {
         document.getElementById('goal').value = '';
         document.getElementById('saved').value = '';
     } else {
-        alert('Please enter valid numbers for goal and saved amount.');
+        alert('Please enter valid numbersaved amount.');
     }
 });
 
